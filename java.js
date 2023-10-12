@@ -81,3 +81,27 @@ superficie=Number (superficie)
 
 alert ("La superficie del cuadrado es:"+superficie)
 
+//Realice el algoritmo para calcular e informar el perímetro y el área del rectángulo//
+
+var br = prompt (
+    "Ingrese medida de la base del rectangulo"
+)
+br1 = Number(br)
+
+var ar = prompt (
+    "Ingrese medida de la altura del rectangulo"
+)
+ar = Number(ar)
+
+
+var Perimetrorec = (br+ar)*2
+
+Perimetrorec =Number (Perimetrorec)
+
+alert ("El perimetro del rectangulo es:"+Perimetrorec)
+
+var superficierec = (br*ar)
+
+superficierec=Number (superficierec)
+
+alert ("La superficie del cuadrado es:"+superficierec)
