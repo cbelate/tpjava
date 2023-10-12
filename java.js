@@ -59,23 +59,13 @@ var lc2 = prompt (
 )
 lc2 = Number(lc2)
 
-var lc3 = prompt (
-    "Ingrese medida tercer lado"
-)
-lc3 = Number(lc3)
+var Perimetro = (lc1+lc2) * 2
 
-var lc4 = prompt (
-    "Ingrese medida cuarto lado"
-)
-lc4 = Number(lc4)
-
-var Perimetro = (lc1+lc2+lc3+lc4)
-
-Perimetro =Number (Perimetro)
+Perimetro=Number (Perimetro)
 
 alert ("El perimetro del cuadrado es:"+Perimetro)
 
-var superficie = (lc1*lc2*lc3*lc4)
+var superficie = (lc1*lc2)
 
 superficie=Number (superficie)
 
@@ -93,15 +83,16 @@ var ar = prompt (
 )
 ar = Number(ar)
 
-
-var Perimetrorec = (br+ar)*2
+var Perimetrorec = (br+ar) * 2
 
 Perimetrorec =Number (Perimetrorec)
 
 alert ("El perimetro del rectangulo es:"+Perimetrorec)
 
-var superficierec = (br*ar)
+var superficierec = (br * ar)
 
 superficierec=Number (superficierec)
 
 alert ("La superficie del cuadrado es:"+superficierec)
+
+//Realice el algoritmo para calcular e informar el resto de la división entera entre los valores.//
