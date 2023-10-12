@@ -76,7 +76,7 @@ alert ("La superficie del cuadrado es:"+superficie)
 var br = prompt (
     "Ingrese medida de la base del rectangulo"
 )
-br1 = Number(br)
+br = Number(br)
 
 var ar = prompt (
     "Ingrese medida de la altura del rectangulo"
